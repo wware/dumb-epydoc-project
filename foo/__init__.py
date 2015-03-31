@@ -15,7 +15,7 @@ This looks like how you're supposed to use it::
 Well that was fun.
 """
 
-from foo import safe_json, x_intercept
+from thing1 import safe_json, x_intercept
 
 if __name__ == "__main__":
     import doctest
