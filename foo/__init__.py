@@ -12,7 +12,7 @@ This looks like how you're supposed to use it::
     epydoc -v -o html foo
     x-www-browser html/index.html
 
-Well that was fun.
+The Github repository for this project is U{here<https://github.com/wware/dumb-epydoc-project>}.
 """
 
 from thing1 import safe_json, x_intercept
