@@ -13,6 +13,16 @@ This looks like how you're supposed to use it::
     x-www-browser html/index.html
 
 The Github repository for this project is U{here<https://github.com/wware/dumb-epydoc-project>}.
+
+Run this stuff in a virtualenv, like this::
+
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+
+You can run a few doctest tests this way::
+
+    python foo/__init__.py
 """
 
 from thing1 import safe_json, x_intercept
