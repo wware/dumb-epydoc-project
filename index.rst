@@ -9,8 +9,10 @@ The version of RST used in epydoc's docstrings is `different`_ from the
 version used in `this file`_, because this file is built to HTML using
 rst2html.
 
-BTW, the source code for this is `on Github`_.
+BTW, the source code for this is |on Github|.
 
 .. _different: http://epydoc.sourceforge.net/epydoc.html#the-epytext-markup-language
 .. _`this file`: http://docutils.sourceforge.net/docs/user/rst/quickref.html
-.. _`on Github`: https://github.com/wware/dumb-epydoc-project
+.. |on Github| raw:: html
+
+   <a href="https://github.com/wware/dumb-epydoc-project" target="_blank">on Github</a>
