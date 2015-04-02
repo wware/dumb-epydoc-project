@@ -4,7 +4,7 @@ def x_intercept(m, b):
     of a line is the point at which it crosses the x axis (M{y=0}).
 
     This function cannot be used in conjuction with L{safe_json} for
-    anything.
+    anything. And even less of a connection to L{bar.thing2.safe_json}.
 
     @type  m: number
     @param m: The slope of the line.

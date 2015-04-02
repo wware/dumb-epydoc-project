@@ -12,7 +12,8 @@ This looks like how you're supposed to use it::
     epydoc -v -o html foo
     x-www-browser html/index.html
 
-The Github repository for this project is U{here<https://github.com/wware/dumb-epydoc-project>}.
+The Github repository for this project is
+U{here<https://github.com/wware/dumb-epydoc-project>}.
 
 Run this stuff in a virtualenv, like this::
 
