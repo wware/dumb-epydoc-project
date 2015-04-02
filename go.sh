@@ -9,7 +9,7 @@ rst2html5 help.rst help.html || exit 1
 rm -rf html/
 epydoc --config foo.conf || exit 1
 
-rst2html5 index.rst index.html || exit 1
+rst2html5 README.rst index.html || exit 1
 Z=$(grep -n "<body>" index.html | sed "s/:.*//")
 tail --lines=+$((Z+1)) index.html > J.html
 Z=$(grep -n "</body>" J.html | sed "s/:.*//")
