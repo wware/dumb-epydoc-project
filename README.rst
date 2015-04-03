@@ -11,11 +11,14 @@ Something not too labor-intensive, but to get an idea what it can do.
 
 The version of RST used in epydoc's docstrings is `different`_ from the
 version used in `this file`_, because this file is built to HTML using
-rst2html. The Github repository for this project is here_.
+rst2html. The Github repository for this project is |here|.
 
 .. _different: http://epydoc.sourceforge.net/epydoc.html#the-epytext-markup-language
 .. _`this file`: http://docutils.sourceforge.net/docs/user/rst/quickref.html
-.. _here: https://github.com/wware/dumb-epydoc-project
+.. |here| raw:: html
+
+   <a href="https://github.com/wware/dumb-epydoc-project" target="_blank">on Github</a>
+
 
 This looks like how you're supposed to use it::
 
